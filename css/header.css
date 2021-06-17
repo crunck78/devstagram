@@ -1,0 +1,33 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    background-color: white;
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.header-content{
+    max-width: 900px;
+    width: 600px;
+    padding: 0 24px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home{
+    text-decoration: none;
+    color: black;
+}

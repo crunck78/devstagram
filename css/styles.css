@@ -1,0 +1,37 @@
+:root {
+    --header-height: 100px;
+    --color-light: #ffffff;
+    --color-dark: #fafafa;
+    --border-color: rgba(219,219,219,1);
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+    position: relative;
+    top: var(--header-height);
+    background-color: var(--color-dark);
+}
+
+.main-content{
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.profile-img{
+    border-radius: 100%;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
